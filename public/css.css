@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital@1&display=swap');
+body{
+    backdrop-filter: blur(4px);
+    background-image: url("https://wallpapersmug.com/download/1920x1080/7f44ef/sunset-city-roads-cityscape.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}   
+.page_title{
+    color:blanchedalmond;
+    -webkit-text-stroke: 1px black;
+    font-style: italic; 
+    font-size: 80px;
+    font-family:'Anton', sans-serif;
+
+}
+section{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search_container{
+    margin: 0;
+    width: 50%;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:whitesmoke;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+}
+#search_bar_container {
+    display: flex;
+    margin-bottom: 20px;
+}
+#search_bar_container input[type="search"]{
+   
+    background-color: rgb(255, 255, 255);
+    height: 48px;
+    width: 500px;
+    color: black;
+    -webkit-text-stroke: white;
+    font-size: medium;
+    float:inline-start;
+    margin: 0;
+}
+#search_bar_container img{
+    border:1px solid black;
+}
+
+input[type="submit"]{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(252, 246, 238);
+    font-size: x-large;
+    border-radius: 20px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(250, 248, 247);
+}
+input[type="submit"]:focus{
+    background-color: rgb(252, 246, 238);
+    width: 195px;
+    height: 95px;
+}
