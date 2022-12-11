@@ -10,6 +10,16 @@
 <body> 
     <section>
         <h2 class="page_title">Weather In Your Area</h2>
+        <div id = 'current_weather_data_container'>
+            <h1>Weather Today</h1>
+            <h3><%= current_weather_description %></h3>
+            <img src= "<%=current_weather_icon%>" alt="<%= current_weather_description %>" width="100px" height="100px">
+             <p><%=current_weather_temp%>°C</p>
+             <p><%=City%></p>
+            <p><%=Country%> </p>
+             
+           
+        </div>
     </section>
 </body>
 </html>

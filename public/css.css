@@ -9,13 +9,17 @@ body{
     background-repeat: no-repeat;
     margin: 0;
 }   
+p{
+    color:blanchedalmond;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .page_title{
     color:blanchedalmond;
     -webkit-text-stroke: 1px black;
     font-style: italic; 
     font-size: 80px;
     font-family:'Anton', sans-serif;
-
+    margin: 3px;
 }
 section{
     height:100vh;
@@ -25,6 +29,7 @@ section{
     flex-direction: column;
 }
 
+ 
 #search_container{
     margin: 0;
     width: 50%;
@@ -60,8 +65,8 @@ form{
 }
 
 input[type="submit"]{
-    width: 200px;
-    height: 100px;
+    width: 170px;
+    height: 50px;
     background-color: rgb(252, 246, 238);
     font-size: x-large;
     border-radius: 20px;
@@ -72,6 +77,23 @@ input[type="submit"]:hover{
 }
 input[type="submit"]:focus{
     background-color: rgb(252, 246, 238);
-    width: 195px;
-    height: 95px;
+    width: 145px;
+    height: 45px;
+}
+#current_weather_data_container{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    background-color:#1b263b;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    flex-direction:column;
+    flex-wrap: wrap;
+    text-transform:capitalize ;
+     
 }
