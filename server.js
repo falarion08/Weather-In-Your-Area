@@ -13,7 +13,7 @@ app.get('/', function(req,res){
 
 app.post('/city', function(req,res){
     res.render('city');
-});dfads
+});
 
 app.listen(3000,'localhost',function(){
     console.log('Server started on port 3000...');
